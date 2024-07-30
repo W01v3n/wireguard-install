@@ -1,16 +1,11 @@
 # WireGuard installer
 
-![Lint](https://github.com/W01v3n/wireguard-install/workflows/Lint/badge.svg)
-[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/W01v3n)
-
 **This project is a bash script that aims to setup a [WireGuard](https://www.wireguard.com/) VPN on a Linux server, as easily as possible!**
 
 WireGuard is a point-to-point VPN that can be used in different ways. Here, we mean a VPN as in: the client will forward all its traffic through an encrypted tunnel to the server.
 The server will apply NAT to the client's traffic so it will appear as if the client is browsing the web with the server's IP.
 
 The script supports both IPv4 and IPv6. Please check the [issues](https://github.com/W01v3n/wireguard-install/issues) for ongoing development, bugs and planned features! You might also want to check the [discussions](https://github.com/W01v3n/wireguard-install/discussions) for help.
-
-WireGuard does not fit your environment? Check out [openvpn-install](https://github.com/W01v3n/openvpn-install).
 
 ## Requirements
 
@@ -27,7 +22,9 @@ Supported distributions:
 
 ## Usage
 
-Download and execute the script. Answer the questions asked by the script and it will take care of the rest.
+Download and execute the script and it will take care of the rest.
+There's another version of this script that asks questions and configures WireGuard according to the answers.
+If you prefer that, you can check the script in the [original](https://github.com/angristan/wireguard-install) repository.
 
 ```bash
 curl -O https://raw.githubusercontent.com/W01v3n/wireguard-install/master/wireguard-install.sh
@@ -64,6 +61,7 @@ You can [say thanks](https://saythanks.io/to/W01v3n) if you want!
 ## Credits & Licence
 
 This project is under the [MIT Licence](https://raw.githubusercontent.com/W01v3n/wireguard-install/master/LICENSE)
+And was forked from the [original](https://github.com/angristan/wireguard-install) repository.
 
 ## Star History
 
